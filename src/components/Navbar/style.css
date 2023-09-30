@@ -1,0 +1,106 @@
+.navbar-header {
+  color: #1d4ed8;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.navbar-icon {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 0.5px solid #ececec;
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(141, 141, 141, 0.05);
+  cursor: pointer;
+}
+
+.navbar-interview {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px 0px 0px 8px;
+  background: #1d5ecd;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 169.231% */
+}
+
+.navbar-arrow {
+  display: flex;
+  width: 34px;
+  padding: 12px 10px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 0px 8px 8px 0px;
+  background: #1d5ecd;
+}
+
+.menu {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 0px 0px 16px 16px;
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(29, 78, 216, 0.05);
+  padding: 0 !important;
+}
+
+.menu-item {
+  display: flex !important;
+  width: 321px !important;
+  height: 72px !important;
+  padding: 8px 16px !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  background: #fff !important;
+  color: #0b0b0b !important;
+  font-family: Poppins !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 22px !important; /* 137.5% */
+  border-bottom: 1 solid #444444;
+}
+
+.dropdown {
+  display: flex !important;
+  width: 321px !important;
+  height: 40px !important;
+  padding: 8px 16px !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+  border-radius: 16px 16px 0px 6px !important;
+  background: #fff !important;
+  box-shadow: 0px 4px 25px 0px rgba(29, 78, 216, 0.05) !important;
+  color: #1d4ed8;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+}
+
+.menu-text {
+  display: flex;
+  padding: 2px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+background: #F8F8F8;
+}

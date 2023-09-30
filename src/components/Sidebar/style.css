@@ -1,0 +1,47 @@
+.sidebar-layout {
+  display: flex;
+  position: fixed;
+  width: 72px;
+  min-height: 100vh;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sidebar-icon-container {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.sidebar-account {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 5px 5px 4px 5px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #d7e5fd;
+  color: #b1cdfd;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
