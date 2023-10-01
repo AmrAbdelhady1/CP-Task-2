@@ -44,7 +44,7 @@ export const Search = () => {
 
   return (
     <div>
-      <div className="search-input-container">
+      <div className="search-input-container w-[320px] md:w-[385px]">
         <div className="search-input">
           <SearchSvg />
           <input

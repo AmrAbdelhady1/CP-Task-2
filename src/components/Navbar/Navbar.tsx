@@ -20,13 +20,13 @@ const CustomeIcon = ({ icon }: Props) => {
 
 export const Navbar = () => {
   return (
-    <div className="flex items-start justify-between mb-8">
+    <div className="flex items-start justify-between mb-8 flex-col gap-4 lg:flex-row">
       <div>
         <h1 className="navbar-header">London Internship Program</h1>
         <p className="text-xs font-light">London</p>
       </div>
       <DropdownMenu />
-      <div className="flex gap-2">
+      <div className="flex gap-2 flex-col md:flex-row">
         <CustomeIcon icon={<TagSvg />} />
         <CustomeIcon icon={<UserCloseSvg />} />
         <CustomeIcon icon={<UserCheckSvg />} />

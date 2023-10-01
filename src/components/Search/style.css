@@ -1,6 +1,5 @@
 .search-input-container {
   display: flex;
-  width: 385px;
   height: 48px;
   padding: 16px;
   justify-content: space-between;
